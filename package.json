@@ -1,0 +1,44 @@
+{
+  "name": "web-extension-svelte-boilerplate",
+  "version": "1.0.0",
+  "description": "Web extension Svelte boilerplate",
+  "scripts": {
+    "code:validate": "svelte-check",
+    "code:typecheck": "./node_modules/.bin/tsc --noEmit",
+    "code:prettier": "prettier --write '**/**/*.{ts,tsx,svelte}'",
+    "app:chrome-dev": "cross-env BROWSER='chrome' webpack --config webpack/webpack.dev.js --watch",
+    "app:chrome": "rimraf dist && cross-env BROWSER='chrome' webpack --config webpack/webpack.prod.js"
+  },
+  "devDependencies": {
+    "@tsconfig/svelte": "^1.0.10",
+    "@types/chrome": "0.0.139",
+    "@types/node": "^14.11.1",
+    "copy-webpack-plugin": "^8.1.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.4",
+    "mini-css-extract-plugin": "^1.6.0",
+    "prettier": "^2.3.0",
+    "prettier-plugin-svelte": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "svelte": "^3.31.2",
+    "svelte-check": "^1.0.46",
+    "svelte-loader": "^3.0.0",
+    "svelte-preprocess": "^4.3.0",
+    "ts-loader": "^8.2.0",
+    "tslib": "^2.0.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.16.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "keywords": [
+    "chrome extension",
+    "microsoft edge extension",
+    "firefox addon",
+    "web extension",
+    "typescript",
+    "ts",
+    "jest",
+    "sinon"
+  ]
+}
