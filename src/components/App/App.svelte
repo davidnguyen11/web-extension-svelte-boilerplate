@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { getPalette } from '../lib/get-palette';
-  import type { DayPeriod } from '../lib/type/index.type';
+  import { getPalette } from '../../lib/get-palette';
+  import type { DayPeriod } from '../../lib/type/index.type';
 
   export let date: string;
   export let time: string;
@@ -9,9 +9,9 @@
   const palette = getPalette(period);
 </script>
 
-<div style={`background-image: url('images/${period}.png')`} class="root" id="root">
+<div style={`background-image: url('images/${period}.png')`} class="root">
   <div class="root__wrapper">
-    <h2 style={`color: ${palette}`} class="root__wrapper__h2">
+    <h2 style={`color: ${palette}`} class="root__wrapper__h2" id="abc">
       {date}
     </h2>
     <h3 style={`color: ${palette}`} class="root__wrapper__h3">

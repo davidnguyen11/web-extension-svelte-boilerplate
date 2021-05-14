@@ -1,6 +1,6 @@
 import './assets/css/global.css';
 
-import App from './components/App.svelte';
+import App from './components/App/App.svelte';
 import { getDisplayDateTime } from './lib/get-display-datetime';
 
 const { date, time, period } = getDisplayDateTime();
