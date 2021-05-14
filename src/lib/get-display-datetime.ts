@@ -1,4 +1,4 @@
-import type { DayPeriod } from './interface.type';
+import type { DayPeriod } from './type/index.type';
 
 export function getDisplayDateTime() {
   const day = getDay();
@@ -65,10 +65,3 @@ export function getPeriod(date: Date): DayPeriod {
   return 'night';
 }
 
-export function getPalette(period: DayPeriod) {
-  return {
-    morning: '#282e54',
-    afternoon: '#000000',
-    night: '#ffdd91',
-  }[period];
-}
