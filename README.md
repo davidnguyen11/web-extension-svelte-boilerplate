@@ -1,7 +1,7 @@
 # Web Extension Svelte Boilerplate
 
 <div align="center">
-  <img width="300" src="https://user-images.githubusercontent.com/6290720/99804359-3d584200-2b7e-11eb-9cff-a2d7e207415e.png" />
+  <img width="300" src="https://user-images.githubusercontent.com/6290720/118286857-dce30580-b50d-11eb-93ec-27dee5fb870f.png" />
   <br />
   <br />
 </div>
