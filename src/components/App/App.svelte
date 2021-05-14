@@ -1,6 +1,6 @@
 <script lang="ts">
   import { getPalette } from '../../lib/get-palette';
-  import type { DayPeriod } from '../../lib/type/index.type';
+  import type { DayPeriod } from '../../type/index.type';
 
   export let date: string;
   export let time: string;

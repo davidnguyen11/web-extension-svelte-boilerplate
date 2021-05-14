@@ -1,4 +1,4 @@
-import type { DayPeriod } from './type/index.type';
+import type { DayPeriod } from '../type/index.type';
 
 export function getDisplayDateTime() {
   const day = getDay();
