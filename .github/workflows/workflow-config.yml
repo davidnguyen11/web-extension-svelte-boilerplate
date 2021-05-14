@@ -36,6 +36,8 @@ jobs:
         run: npm ci
       - name: Running typecheck... 🩺 🔬 🔭
         run: npm run code:typecheck
+      - name: Running eslint... 👀
+        run: npm run code:lint
       - name: Running validation... 👨‍⚕️ 👩‍⚕️ 🩺
         run: npm run code:validate
       - name: Running unit test... 🤞 🚑 💊
