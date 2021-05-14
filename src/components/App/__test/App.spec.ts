@@ -13,5 +13,5 @@ describe('testing getDisplayDateTime', () => {
 
     expect(h2).toHaveTextContent('Fri May 14');
     expect(h3).toHaveTextContent('16:44');
-  })
+  });
 });
