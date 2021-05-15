@@ -122,6 +122,12 @@ You can modify the `.github/workflows` to show the CI/CD flow.
 - If you have any Chrome extension issues, you can post it here: [https://groups.google.com/a/chromium.org/forum/#!forum/chromium-extensions](https://groups.google.com/a/chromium.org/forum/#!forum/chromium-extensions)
 - [Jack and Amy Dev youtube channel](https://www.youtube.com/channel/UCVj3dGw75v8aHFYD6CL1tFg), which explains some common mistakes made when developing Chrome extensions.
 
-## Showcase
+## Most important
 
-This boilerplate was used to develop [Spotify Web Extension](https://spotify-extension.netlify.app/)
+Follow me on Twitter! https://twitter.com/davidnguyen1791
+
+Thanks!
+
+## License
+
+MIT
