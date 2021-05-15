@@ -8,6 +8,7 @@
 
 This boilerplate using [Svelte](https://svelte.dev/) provides a skeleton to start developing cross-browser web extensions.
 
+[![codecov](https://codecov.io/gh/davidnguyen179/web-extension-svelte-boilerplate/branch/main/graph/badge.svg?token=IKX2LE11LE)](https://codecov.io/gh/davidnguyen179/web-extension-svelte-boilerplate) ![ci/cd](https://github.com/davidnguyen179/web-extension-svelte-boilerplate/workflows/ci/cd/badge.svg) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/davidnguyen179/web-extension-svelte-boilerplate/pulls) [![MIT license](https://img.shields.io/github/license/davidnguyen179/web-extension-svelte-boilerplate)](https://github.com/davidnguyen179/web-extension-svelte-boilerplate/blob/main/LICENSE)
 ## Development
 
 ```bash
