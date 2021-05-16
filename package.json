@@ -17,7 +17,7 @@
     "app:firefox": "rimraf dist && cross-env BROWSER='firefox' webpack --config webpack/webpack.prod.js",
     "app:firefox-dev": "cross-env BROWSER='firefox' webpack --config webpack/webpack.dev.js --watch",
     "test:unit": "jest",
-    "test:unit-update": "jest --updateSnapshot"
+    "test:unit-update-snapshot": "jest --updateSnapshot"
   },
   "author": "David Nguyen <dzungnguyen179@gmail.com> (dzungnguyen179@gmail.com)",
   "devDependencies": {
