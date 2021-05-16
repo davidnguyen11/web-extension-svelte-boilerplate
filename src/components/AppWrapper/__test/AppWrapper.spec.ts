@@ -7,7 +7,7 @@ describe('testing app wrapper', () => {
       period: 'afternoon',
     });
 
-    const wrapper = getByTestId('wrapper-element');
+    const wrapper = getByTestId('wrapper');
     expect(wrapper).toHaveStyle('background-image: url(images/afternoon.png)');
   });
 
