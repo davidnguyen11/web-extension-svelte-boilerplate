@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`testing getDisplayDateTime it works 1`] = `
+exports[`testing getDisplayDateTime should display datetime 1`] = `
 <body>
   <div>
     <div
       class="root svelte-1tq4r33"
-      data-testid="wrapper-element"
+      role="wrapper"
       style="background-image: url(images/afternoon.png)"
     >
       <div
