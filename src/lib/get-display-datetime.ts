@@ -64,4 +64,3 @@ export function getPeriod(date: Date): DayPeriod {
   // 5:00 PM — 4:59 AM => night
   return 'night';
 }
-
