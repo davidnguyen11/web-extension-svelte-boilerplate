@@ -5,7 +5,7 @@
   const imageUrl = `url(images/${period}.png)`;
 </script>
 
-<div style={`--image: ${imageUrl}`} class="root">
+<div data-testid="wrapper-element" style={`--image: ${imageUrl}`} class="root">
   <slot />
 </div>
 
