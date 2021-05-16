@@ -2,7 +2,7 @@ import DateTime from '../DateTime.svelte';
 import { render } from '@testing-library/svelte';
 
 describe('testing datetime', () => {
-  it('it should render datetime', async () => {
+  it('should render datetime', async () => {
     const { getAllByRole } = render(DateTime, {
       date: 'Fri May 14',
       time: '16:44',
