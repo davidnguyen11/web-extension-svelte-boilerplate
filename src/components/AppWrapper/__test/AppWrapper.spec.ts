@@ -2,7 +2,7 @@ import AppWrapper from '../AppWrapper.svelte';
 import { render } from '@testing-library/svelte';
 
 describe('testing app wrapper', () => {
-  it('it should render background image', async () => {
+  it('should render background image', async () => {
     const { getByTestId } = render(AppWrapper, {
       period: 'afternoon',
     });
