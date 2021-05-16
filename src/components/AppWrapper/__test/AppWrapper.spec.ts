@@ -8,6 +8,13 @@ describe('testing app wrapper', () => {
     });
 
     const wrapper = getByTestId('wrapper-element');
-    expect(wrapper).toHaveStyle('--image: url(images/afternoon.png)');
+    expect(wrapper).toHaveStyle('background-image: url(images/afternoon.png)');
+  });
+
+  it('it should render background image default without period', async () => {
+    const { getByTestId } = render(AppWrapper);
+
+    const wrapper = getByTestId('wrapper-element');
+    expect(wrapper).toHaveStyle('background-image: url(images/morning.png)');
   });
 });

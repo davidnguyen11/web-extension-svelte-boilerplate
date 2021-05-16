@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing getDisplayDateTime it works 1`] = `
+<body>
+  <div>
+    <div
+      class="root svelte-1tq4r33"
+      data-testid="wrapper-element"
+      style="background-image: url(images/afternoon.png)"
+    >
+      <div
+        class="root__wrapper svelte-hw1lzg"
+      >
+        <h2
+          class="datetime__h2 svelte-1pg3641"
+          style="color: #000000"
+        >
+          Fri May 14
+        </h2>
+         
+        <h3
+          class="datetime__h3 svelte-1pg3641"
+          style="color: #000000"
+        >
+          16:44
+        </h3>
+      </div>
+    </div>
+  </div>
+</body>
+`;
