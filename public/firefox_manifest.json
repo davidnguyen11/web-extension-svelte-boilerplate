@@ -1,7 +1,7 @@
 {
-  "name": "datetime",
+  "name": "The Clock",
   "version": "1.0",
-  "description": "Build a Datetime Extension!",
+  "description": "The clock which shows time and date quickly. It has background images correspond to the periods of a day.",
   "permissions": [],
   "manifest_version": 2,
   "background": {
