@@ -6,7 +6,7 @@
   const imageUrl = `url(images/${period}.png)`;
 </script>
 
-<div role="wrapper" style={`background-image: ${imageUrl}`} class="root">
+<div role="main" style={`background-image: ${imageUrl}`} class="root">
   <slot />
 </div>
 

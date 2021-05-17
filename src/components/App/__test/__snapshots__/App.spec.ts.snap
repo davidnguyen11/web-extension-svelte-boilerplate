@@ -5,7 +5,7 @@ exports[`testing getDisplayDateTime should display datetime 1`] = `
   <div>
     <div
       class="root svelte-1tq4r33"
-      role="wrapper"
+      role="main"
       style="background-image: url(images/afternoon.png)"
     >
       <div

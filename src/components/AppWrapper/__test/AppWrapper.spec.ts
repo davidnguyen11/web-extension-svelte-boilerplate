@@ -7,14 +7,14 @@ describe('testing app wrapper', () => {
       period: 'afternoon',
     });
 
-    const wrapper = getByRole('wrapper');
+    const wrapper = getByRole('main');
     expect(wrapper).toHaveStyle('background-image: url(images/afternoon.png)');
   });
 
   it('it should render background image default without period', async () => {
     const { getByRole } = render(AppWrapper);
 
-    const wrapper = getByRole('wrapper');
+    const wrapper = getByRole('main');
     expect(wrapper).toHaveStyle('background-image: url(images/morning.png)');
   });
 });
