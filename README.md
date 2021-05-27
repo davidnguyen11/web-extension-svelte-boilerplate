@@ -100,7 +100,7 @@ Simple, just open chrome extension as a page. To do that, follow below steps:
 
 2. Copy extension id
 
-<img width="333" alt="Screen Shot 2021-05-27 at 14 44 56" src="https://user-images.githubusercontent.com/6290720/119772835-c029d300-befa-11eb-8410-98bed837a85c.png">
+<img width="712" alt="Screen Shot 2021-05-27 at 14 45 20" src="https://user-images.githubusercontent.com/6290720/119773037-0b43e600-befb-11eb-8887-1696816026d0.png">
 
 3. Open extension as a opage `chrome-extension://<extension-id>/popup.html`
 
