@@ -102,9 +102,12 @@ Simple, just open chrome extension as a page. To do that, follow below steps:
 
 <img width="712" alt="Screen Shot 2021-05-27 at 14 45 20" src="https://user-images.githubusercontent.com/6290720/119773037-0b43e600-befb-11eb-8887-1696816026d0.png">
 
-3. Open extension as a opage `chrome-extension://<extension-id>/popup.html`
+3. Open extension as a page `chrome-extension://<extension-id>/popup.html`
 
-For example: chrome-extension://npjcjlkchmiidojhockoecphakigbaej/popup.html
+- For example: [chrome-extension://npjcjlkchmiidojhockoecphakigbaej/popup.html](chrome-extension://npjcjlkchmiidojhockoecphakigbaej/popup.html)
+
+<img width="792" alt="chrome-extension://npjcjlkchmiidojhockoecphakigbaej/popup.html" src="https://user-images.githubusercontent.com/6290720/120733663-90925080-c522-11eb-8b92-8bc34def4333.png">
+
 
 
 ## Privacy Policy file
