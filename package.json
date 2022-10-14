@@ -4,12 +4,12 @@
   "description": "Web extension Svelte boilerplate",
   "scripts": {
     "code:lint": "eslint '**/**/*.{ts,tsx,svelte}'",
-    "code:lint-fix": "eslint --fix '**/**/*.{ts,tsx,svelte}'",
+    "code:lint-fix": "eslint --fix",
     "code:validate": "svelte-check",
     "code:typecheck": "./node_modules/.bin/tsc --noEmit",
-    "code:prettier": "prettier --write '**/**/*.{ts,tsx,svelte}'",
+    "code:prettier": "prettier --write",
     "css:lint": "stylelint 'src/assets/**/**/*.css'",
-    "css:lint-fix": "stylelint 'src/assets/**/**/*.css' --fix",
+    "css:lint-fix": "stylelint --fix",
     "app:chrome": "rimraf dist && cross-env BROWSER='chrome' webpack --config webpack/webpack.prod.js",
     "app:chrome-dev": "cross-env BROWSER='chrome' webpack --config webpack/webpack.dev.js --watch",
     "app:edge": "rimraf dist && cross-env BROWSER='edge' webpack --config webpack/webpack.prod.js",
@@ -17,6 +17,7 @@
     "app:firefox": "rimraf dist && cross-env BROWSER='firefox' webpack --config webpack/webpack.prod.js",
     "app:firefox-dev": "cross-env BROWSER='firefox' webpack --config webpack/webpack.dev.js --watch",
     "test:unit": "jest",
+    "lint-staged": "lint-staged",
     "test:unit-update-snapshot": "jest --updateSnapshot"
   },
   "author": "David Nguyen <dzungnguyen179@gmail.com> (dzungnguyen179@gmail.com)",
@@ -42,7 +43,9 @@
     "eslint-plugin-import": "^2.23.0",
     "eslint-plugin-svelte3": "^3.2.0",
     "git-hooks-plus": "^1.0.1",
+    "husky": "^8.0.1",
     "jest": "^26.6.3",
+    "lint-staged": "^13.0.3",
     "mini-css-extract-plugin": "^1.6.0",
     "prettier": "^2.3.0",
     "prettier-plugin-svelte": "^2.3.0",
@@ -86,5 +89,12 @@
   "funding": {
     "type": "individual",
     "url": "https://paypal.me/davidnguyen179"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,css,svelte}": [
+      "npm run code:lint-fix",
+      "npm run css:lint-fix",
+      "npm run code:prettier"
+    ]
   }
 }
