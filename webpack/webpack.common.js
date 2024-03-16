@@ -43,7 +43,8 @@ module.exports = {
       svelte: path.dirname(require.resolve('svelte/package.json'))
     },
     extensions: ['.mjs', '.js', '.ts', '.svelte'],
-    mainFields: ['svelte', 'browser', 'module', 'main']
+    mainFields: ['svelte', 'browser', 'module', 'main'],
+    conditionNames: ['svelte', 'require', 'node'],
   },
   plugins: [
     new MiniCssExtractPlugin({
